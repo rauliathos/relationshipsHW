@@ -37,6 +37,8 @@ public class File {
 
     }
 
+    public File() {
+    }
 
     public Folder getFolder() {
         return folder;
