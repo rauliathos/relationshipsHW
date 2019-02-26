@@ -6,7 +6,7 @@ import com.example.relationships.models.Folder;
 import org.springframework.data.rest.core.config.Projection;
 
 @Projection(name = "embedFolder", types = File.class)
-interface EmbedFolder {
+public interface EmbedFolder {
 
     String getNAme();
     String getExtension();
